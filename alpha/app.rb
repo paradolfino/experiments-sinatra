@@ -6,5 +6,5 @@ class HelloWorld < Sinatra::Base
 
     get '/bye' { "Bye bye" }
 
-
+    get '/:age' { "Hi, #{params[:age]}, is a good year."}
 end

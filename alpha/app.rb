@@ -4,7 +4,7 @@ class HelloWorld < Sinatra::Base
         "Hello my friend."
     end
 
-    get '/bye' { "Bye bye" }
+    get '/bye' { "Bye bye" } end
 
-    get '/:age' { "Hi, #{params[:age]}, is a good year."}
+    get '/:age' { "Hi, #{params[:age]}, is a good year."} end
 end

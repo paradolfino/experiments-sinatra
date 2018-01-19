@@ -4,4 +4,7 @@ class HelloWorld < Sinatra::Base
         "Hello my friend."
     end
 
+    get '/bye' { "Bye bye" }
+
+
 end

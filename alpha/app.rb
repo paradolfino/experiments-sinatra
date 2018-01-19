@@ -1,4 +1,4 @@
 require 'sinatra'
-class HelloWorld
+class HelloWorld < Sinatra::Base
 
 end
